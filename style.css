@@ -1,0 +1,607 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    height: 70px;
+    width: auto;
+    background-color: rgb(194, 208, 219);
+}
+
+.banner {
+    height: 500px;
+    width: auto;
+    background-color: white;
+}
+
+.menu {
+    height: 50px;
+    width: auto;
+    background-image: url(nav.jpg);
+}
+
+.info {
+    margin-top: 70px;
+    height: 450px;
+    width: auto;
+    background-color: #E4E8EA;
+}
+
+.mission {
+    margin-top: 50px;
+    height: 450px;
+    width: auto;
+    background-color: #E4E8EA;
+}
+
+.t1 {
+    margin-top: 30px;
+    height: 120px;
+    width: auto;
+    background-color: white
+}
+
+.g1 {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 240px;
+    width: 28%;
+    border-radius: 30px;
+    border: 2px solid black;
+    background-color: white;
+    float: left;
+}
+
+.g2 {
+    margin-top: 30px;
+    height: 240px;
+    width: 28%;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-right: 40px;
+    background-color: white;
+    float: left;
+}
+
+.g3 {
+    margin-top: 30px;
+    height: 240px;
+    width: 28%;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: white;
+    float: left;
+}
+
+.client {
+    margin-top: 40px;
+    height: 130px;
+    width: auto;
+    background-color: white;
+}
+
+.t2 {
+    margin-top: 30px;
+    margin-left: 120px;
+    background-color: white;
+    height: 140px;
+    width: 35%;
+    float: left;
+}
+
+.t3 {
+    margin-top: 30px;
+    margin-left: 80px;
+    background-color: white;
+    height: 140px;
+    width: 35%;
+    float: left;
+}
+
+.cli1 {
+    margin-top: 30px;
+    margin-left: 40px;
+    height: 70px;
+    background-color: white;
+    width: 45%;
+    float: left;
+}
+
+.cli2 {
+    margin-top: 30px;
+    margin-left: 40px;
+    height: 70px;
+    background-color: white;
+    width: 45%;
+    float: left;
+}
+
+.text1 {
+    margin-top: 400px;
+    height: 150px;
+    width: auto;
+    background-color: white;
+}
+
+.info1 {
+    margin-top: 50px;
+    height: 320px;
+    width: auto;
+    background-color: darkgreen;
+}
+
+.info2 {
+    margin-top: 60px;
+    height: 350px;
+    width: auto;
+    background-color: white;
+}
+
+.f1 {
+    height: 350px;
+    width: auto;
+    background-image: url(footer\ image.jpg);
+}
+
+.nav li {
+    position: relative;
+    float: left;
+    top: -80px;
+    left: 400px;
+    padding: 30px;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.nav li a:hover {
+    background-color: rgb(61, 55, 55);
+    display: block;
+    height: 35px;
+    width: 75px;
+    text-align: center;
+    color: white;
+    transition: all 2s;
+    border-radius: 10px;
+
+}
+
+.banner img {
+    position: absolute;
+    display: block;
+}
+
+.banner button {
+    position: absolute;
+    top: 360px;
+    left: 150px;
+    height: 37px;
+    width: 140px;
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: rgb(243, 108, 11);
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.banner h4 {
+    position: absolute;
+    color: black;
+    font-size: 16px;
+    font-family: sans-serif;
+    top: 440px;
+    left: 150px;
+}
+
+.button1 {
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    margin-top: 5px;
+    top: 395px;
+    left: -330px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    border: 1.8px solid black;
+
+}
+
+.button1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    position: relative;
+    display: inline-block;
+    top: -35px;
+    left: 150px;
+    padding: 50px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(247, 243, 3);
+}
+
+.info img {
+    padding-left: 50px;
+    float: left;
+}
+
+.ler {
+    padding-top: 65px;
+    font-family: sans-serif;
+}
+
+.org {
+    color: rgb(243, 108, 11);
+    font-size: 28px;
+}
+
+.lor {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.Exp {
+    position: absolute;
+    background-color: rgb(243, 108, 11);
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    border: 0px;
+    height: 38px;
+    width: 140px;
+    top: 1000px;
+    border-radius: 10px;
+}
+
+.Exp a {
+    text-decoration: none;
+    color: white;
+}
+
+.mission h1 {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.mission h2 {
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-bottom: 10px;
+}
+
+.mission p {
+    padding-left: 80px;
+}
+
+.mission ul {
+    list-style: disc;
+    padding-left: 99px;
+}
+
+.mission img {
+    position: absolute;
+    top: 1190px;
+    left: 586px;
+}
+
+.mission i {
+    position: absolute;
+    padding-top: 26px;
+    padding-left: 30px;
+    
+}
+
+.t1 h1 {
+    padding-left: 350px;
+    padding-top: 20px;
+    font-family: Cambria;
+}
+
+.t1 p {
+    padding-left: 300px;
+    padding-top: 8px;
+    font-family: Cambria;
+}
+
+.ga {
+    background-color: #c0d9e6;
+    height: 300px;
+    width: auto;
+    position: relative;
+}
+
+.g1 h1 {
+    font-size: 24px;
+    padding-top: 80px;
+    text-align: center;
+    font-family: Georgia, ;
+    text-align: center;
+}
+
+.g2 h1 {
+    font-size: 24px;
+    padding-top: 80px;
+    text-align: center;
+    font-family: Georgia, ;
+    text-align: center;
+}
+
+.g3 h1 {
+    font-size: 24px;
+    padding-top: 80px;
+    text-align: center;
+    font-family: Georgia, ;
+    text-align: center;
+}
+
+.ga1 {
+    text-align: center;
+    font-family: Georgia;
+    padding-top: 10px;
+}
+
+.g1 img {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    padding-top: 12px;
+    padding-left: 110px;
+}
+
+.g2 img {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    padding-top: 12px;
+    padding-left: 110px;
+}
+
+.g3 img {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    padding-top: 12px;
+    padding-left: 110px;
+}
+
+.client h1 {
+    padding-top: 8px;
+    padding-left: 30px;
+    font-family: sans-serif;
+    font-size: 29px;
+}
+
+.client p {
+    padding-top: 8px;
+    padding-left: 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.client i {
+    position: relative;
+    left: 890px;
+    padding: 4px;
+}
+
+.t2 {
+    font-family: sans-serif;
+}
+
+.t3 {
+    font-family: sans-serif;
+}
+
+.cli1 h2 {
+    position: absolute;
+    font-family: "Pacifico", cursive;
+    left: 120px;
+    margin-top: -70px;
+}
+
+.cli2 h2 {
+    position: absolute;
+    left: 620px;
+    font-family: "Pacifico", cursive;
+    margin-top: -70px;
+}
+
+.cli1 p {
+    position: absolute;
+    left: 120px;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: -30px;
+}
+
+.cli2 p {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 16px;
+    left: 620px;
+    margin-top: -30px;
+}
+
+.cli1 i {
+    position: absolute;
+    padding-left: 340px;
+    padding-top: -120px;
+}
+
+.cli2 i {
+    position: absolute;
+    padding-left: 340px;
+    padding-top: -120px;
+}
+
+.text1 h1 {
+    text-align: center;
+    padding-top: 10px;
+    font-family: "Playwrite GB S", cursive;
+}
+
+.text1 p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.infoa {
+    width: 55%;
+    height: 320px;
+    background-color: white;
+    float: left;
+}
+
+.infob {
+    width: 45%;
+    height: 320px;
+    background-color: white;
+    float: left;
+}
+
+.infoa h2 {
+    font-family: "Exo 2", sans-serif;
+    font-size: 18px;
+    padding-left: 30px;
+    position: relative;
+    top: 18px;
+    padding: 4px;
+}
+
+.infoa i {
+    position: relative;
+    left: 500px;
+    top: -18px;
+}
+
+.infob img {
+    position: absolute;
+    margin-top: -80px;
+}
+
+.ad {
+    position: absolute;
+    background-color: white;
+    height: 280px;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid #f36c0b;
+    left: 420px;
+    margin-top: 20px;
+}
+
+.ad i {
+    background-color: #f36c0b;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 20px;
+    top: 60px;
+
+    position: relative;
+}
+
+.ad h3 {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    margin-left: 65px;
+    top: 35px;
+}
+
+.ad h1 {
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-family: "Pacifico", cursive;
+}
+
+.info2 img {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.f1 img {
+    margin-top: 90px;
+}
+
+.f1 h1 {
+    
+    margin-top: -90px;
+    margin-left: 500px;
+    font-family: "Playwrite GB S", cursive;
+    font-size: 25px;
+}
+
+.f1 ul {
+    list-style: none;
+}
+
+.f1 ul li {
+    margin-left: 500px;
+    margin-top: 5px;
+    padding-top: 20px;
+}
+
+.f1 ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.f1 h2{margin-top: -179px;
+        margin-left: 800px;
+        font-family: "Playwrite GB S", cursive;
+        font-size: 25px;}
+.ul{margin-left: 300px;}
+.button2{display:inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    margin-top: 5px;
+    left: 800px;
+    margin-top: 20px;
+    
+    
+    border: 2px solid #f36c0b;
+
+}
+.button2 a{text-decoration: none;
+            color: black;
+}
